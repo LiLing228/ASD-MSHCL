@@ -14,8 +14,6 @@ PyTorch Geometric training code for self-supervised hypergraph representation le
 
 ```bash
 python train.py \
-  --temperature 1 \
-  --reg_lambda 2 \
   --cuda 1 \
   --seed 921 \
   --kf_cv \
